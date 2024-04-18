@@ -4,7 +4,7 @@ const arr_count = parseInt(prompt("Masikkan jumlah elemen array: "));
     let total =0;
 
     for (let i = 0; i < arr_count; i++) {
-         let element = parseInt(ptompt("Masukkan angka ke-" + parseInt(i + 1) + ":"));
+         let element = parseInt (prompt("Masukkan angka ke-" + parseInt(i + 1) + ":"));
          arr[i] = element;
     }
 
